@@ -81,3 +81,7 @@ Sono numeri di una sola macchina e di un solo testo: i tuoi saranno diversi.
 - Il vecchio repository GitHub `higgs-audio` di Boson è Apache-2.0 e qui non è usato; il suo README dice che v3 è un rilascio autonomo. I pesi v3 hanno la licenza qui sopra.
 - Licenza del codice di questo repository: vedi `LICENSE` (MIT, © 2026 Volpe). Crediti di terzi: [THIRD_PARTY.md](THIRD_PARTY.md). La licenza del codice **non** cambia quella del modello.
 - Nessun legame né approvazione da parte di Boson AI, AMD, LM Studio o ComfyUI.
+
+## Come è nato
+
+Progetto diretto e collaudato da **Volpe** (idea, requisiti, prove d'ascolto, hardware) e scritto da **Claude** (l'assistente IA di Anthropic, tramite Claude Code): l'analisi del perché ComfyUI era lento, il codice del server, le misure e questa documentazione. Ogni modifica nella cronologia è firmata anche da Claude.

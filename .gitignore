@@ -1,0 +1,30 @@
+# models and weights
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+models/
+# audio (outputs and cloned voices)
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.m4a
+voices/*
+!voices/README.txt
+out/
+# DLL copied from other programs (never redistribute)
+*.dll
+bridge_dll/
+# numeric references generated from the model
+*.npy
+# cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# local lock / logs
+*.lock
+*.log

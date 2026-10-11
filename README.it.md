@@ -8,7 +8,7 @@ Un piccolo server locale (`POST /tts` -> WAV) che genera voce con Higgs Audio v3
 
 ## Risultati misurati
 
-Stesso testo (74 s di voce), stessa voce clonata, stessa scheda (AMD Radeon RX 7900 XTX, 24 GB), Windows, 11 ott 2026:
+Stesso testo (74 s di voce), stessa voce clonata, stessa scheda (AMD Radeon RX 7900 XTX, 24 GB), Windows 10, 11 ott 2026:
 
 | Sistema | Tempo | Velocità |
 |---|---|---|
@@ -38,7 +38,7 @@ Sono numeri di una sola macchina e di un solo testo: i tuoi saranno diversi.
 - API: `POST /tts` `{"text","voice","seed"}` -> WAV; `GET /voices`; `GET /health`. Ascolta solo su `127.0.0.1:8090`.
 
 ## Requisiti
-- Windows 10/11, scheda AMD Radeon supportata da ROCm per Windows, **>= 18 GB di memoria video liberi** consigliati (provato su 24 GB; picco ~15 GB). Altre schede non provate.
+- Windows 10 (provato; Windows 11 non provato), scheda AMD Radeon supportata da ROCm per Windows, **>= 18 GB di memoria video liberi** consigliati (provato su 24 GB; picco ~15 GB). Altre schede non provate.
 - Python 3.12 con **PyTorch ROCm per Windows** (provato: torch 2.12.0+rocm7.15.0a20260709, torchaudio 2.11.0, transformers 5.13.0) più `numpy`, `soundfile`, `safetensors`, `tokenizers`, `gguf`.
 - I file del modello Higgs Audio v3 di Boson (da scaricare, vedi sotto).
 - Una copia di `native.py` dal nodo ComfyUI **TTS-Audio-Suite** (MIT), cartella `engines/higgs_audio_v3/` (lo importiamo, non lo distribuiamo).
